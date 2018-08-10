@@ -20,3 +20,11 @@ src | url |规定外部脚本文件的URL
 `footerBar`  `bannerArea` `_userName` `$home2`
 * 错误例子:
 `88Bar` `&demo` `address(info)`
+
+**直接量**
+在程序中直接使用的数据的值  
+* 数字  18
+* 小数  1.2
+* 字符串  "sdadas"
+* 布尔值  true false
+* 数组
