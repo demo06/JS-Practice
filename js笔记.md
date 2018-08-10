@@ -28,3 +28,10 @@ src | url |规定外部脚本文件的URL
 * 字符串  "sdadas"
 * 布尔值  true false
 * 数组 \[\]  \{a\:8\;\}
+
+**javascript 语句**
+变量定义都通过var关键字  
+变量可以先声明,后进行复制;
+
+**关键字和保留字**
+[保留关键字](http://www.runoob.com/js/js-reserved.html)

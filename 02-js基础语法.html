@@ -10,9 +10,39 @@
 
 <body>
     <script>
+        //1.JavaScript 直接量
         123
             "asdsadasd_=sdadasdsa"
         console.log('234')
+            //2.JavaScript注释
+            //单行
+            /*
+                多行
+            */
+            //3.JavaScript语句
+            // 赋值语句
+        var a = 123;
+        var b = "333";
+        var c = false;
+        var username = [];
+        console.log(a);
+
+        //先声明后赋值
+        var t;
+        t = 8 * 9;
+        console.log("8*9=" + t);
+
+        // 定义多个变量
+        var a1, a2, a3, a4; //声明了4个变量(局部变量)
+        a1 = 1;
+        a2 = "sss";
+
+        var b1 = 1, //声明变量,顺便给变量赋值
+            b2 = 3,
+            b3 = "nihao";
+
+        //绝对不推荐
+        var c1 = c2 = c3 = c4 = 0; //定义了一个C1局部变量,C2,C3,C4为全局变量
     </script>
 </body>
 
