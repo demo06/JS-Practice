@@ -1,4 +1,4 @@
-###script标签的属性
+###script标签的属性  
 属性|值|描述
 async|async|异步下载脚本,不影响下载HTML(仅适用于外部脚本)
 charset|utf-8|规定外部脚本文件中使用的字符编码
