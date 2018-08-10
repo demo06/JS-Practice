@@ -11,3 +11,11 @@ src | url |规定外部脚本文件的URL
 <script type="text/javascript" defer charset="UTF-8"></script>
 <script type="text/javascript" src="" async="async" charset="UTF-8"></script>
 // type属性可省略
+
+**标识符规范**
++第一个字符必须是字母,下划线或者美元符号$
++其他的字符可以是字母,下划线,数字
++例如:
+`footerBar`  `bannerArea` `_userName` `$home2`
++错误例子:
+`88Bar` `&demo` `address(info)`
