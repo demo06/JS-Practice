@@ -35,3 +35,16 @@ src | url |规定外部脚本文件的URL
 
 **关键字和保留字**
 [保留关键字](http://www.runoob.com/js/js-reserved.html)
+
+**数据类型**
+* 数值类型(number)
+`123,0.2,100.3,-4,-9.0,10e10`
+* 布尔类型(Boolean)
+`true false`
+* 字符串类型(string)
+`"1dasda","adasdasd"`
+* 未定义类型(undefined)
+`undefined`
+* null类型(本质上是一个特殊类型的object)
+* object类型(引用类型)
+* function类型(函数类型)
