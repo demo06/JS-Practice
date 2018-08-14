@@ -65,4 +65,9 @@ src | url |规定外部脚本文件的URL
 * 超过最大值或最小值范围后将会显示:(正负无限)
     * 正Infinity
     * 负Infinity
-    
+* NaN
+  * Not a number,非数字值,是数字类型,但是非常特殊的数字类型值
+  * parseInt("s");把数字转换成整数,此时转换失败会返回NaN
+  * 涉及到NaN的所有的操作都会返回NaN 
+  * 判断是否是NaN使用isNaN方法
+  * 数字除以0的时候,都返回NaN
