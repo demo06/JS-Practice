@@ -32,8 +32,9 @@ src | url |规定外部脚本文件的URL
 * 数组 \[\]  \{a\:8\;\}
 
 **javascript 语句**
-变量定义都通过var关键字  
-变量可以先声明,后进行复制;
+
+    变量定义都通过var关键字  
+    变量可以先声明,后进行赋值;
 
 **关键字和保留字**  
 [保留关键字](http://www.runoob.com/js/js-reserved.html)
@@ -41,6 +42,7 @@ src | url |规定外部脚本文件的URL
 **数据类型**
 * 数值类型(number)
 `123,0.2,100.3,-4,-9.0,10e10`
+`正整数,小数` 
 * 布尔类型(Boolean)
 `true false`
 * 字符串类型(string)
@@ -53,5 +55,14 @@ src | url |规定外部脚本文件的URL
 `vat m; //m==undefined`
 * object类型(引用类型)
 * function类型(函数类型)
-  
-`typeof 取值类型`
+`注释:typeof函数用来取值的类型`
+
+**数据的表示范围**
+* 数字的最大值,并不是所有浏览器都只支持到这个值,某些浏览器是可以超过的
+`Number.MAX_VALUE;`
+* 最小值
+`Number.MIN_VALUE;`
+* 超过最大值或最小值范围后将会显示:(正负无限)
+    * 正Infinity
+    * 负Infinity
+    
