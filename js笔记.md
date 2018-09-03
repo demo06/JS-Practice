@@ -133,9 +133,10 @@ src | url |规定外部脚本文件的URL
 #### **布尔类型**
 
 布尔类型只有两个值:真true和假false,都是小写
+  例如:
 
 ```javascript
-   例如:
+
     var x = true;            //真
     var y = false;           //假 
     var z = 10 > 9;          //z = >true
@@ -143,3 +144,6 @@ src | url |规定外部脚本文件的URL
     var t = (1 === '1');    //t=>false三个等号比较值的类型
     var t = (1 == '1');     //t=>true
 ```
+
+        推荐书籍:
+        <<JS高级程序设计>>  <<js权威指南>>
